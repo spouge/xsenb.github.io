@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>我的观影 | Gridea</title>
+<title>我的观影 | spoug的第二个测试站</title>
 <meta name="description" content="温故而知新" />
 <link rel="shortcut icon" href="https://me.xusb.ml/favicon.ico">
 <link rel="stylesheet" href="https://me.xusb.ml/styles/main.css">
@@ -58,7 +58,7 @@
                   </li>
                 
                   <li class="" >
-                    <a href="https://senb.github.io/friends" class="menu">
+                    <a href="https://me.xusb.ml/friends" class="menu">
                       友链
                     </a>
                   </li>
@@ -79,7 +79,7 @@
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1588388995082" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1588496958676" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -156,7 +156,7 @@
                     <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://me.xusb.ml/images/avatar.png);"></span></a>
                   </div>
                   <div class="info">
-                    <h4 class="title small author-name gradient-effect no-margin"><a href="">Gridea</a></h4>
+                    <h4 class="title small author-name gradient-effect no-margin"><a href="">spoug的第二个测试站</a></h4>
                     <p class="founder">温故而知新</p>
                     <div class="social">
                       
@@ -184,9 +184,28 @@
           <a href="https://me.xusb.ml"><img src="/media/images/gridea.png" alt=""></a>
         </div>
         <p class="published border-effect">
-          ©2019 共 2 篇文章
+          ©2020共 2 篇文章
           <br/>
-          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
+         Powered by <a href="https://www.xusb.top="_blank">spoug</a>
+<br>
+<span id="timeDate">载入天数...</span>
+<span id="times">载入时分秒...</span>  
+<script>
+    var now = new Date();
+    function createtime() {
+        var grt= new Date("04/27/2020 11:13:56");//此处修改你的建站时间或者网站上线时间
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "本站蹦跶了 "+dnum+" 天 ";
+        document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+setInterval("createtime()",250);
+</script>
         </p>
         
         <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">

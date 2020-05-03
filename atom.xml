@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://me.xusb.ml</id>
-    <title>Gridea</title>
-    <updated>2020-05-02T03:10:45.570Z</updated>
+    <title>spoug的第二个测试站</title>
+    <updated>2020-05-03T09:09:35.217Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://me.xusb.ml"/>
     <link rel="self" href="https://me.xusb.ml/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://me.xusb.ml/images/avatar.png</logo>
     <icon>https://me.xusb.ml/favicon.ico</icon>
-    <rights>All rights reserved 2020, Gridea</rights>
+    <rights>All rights reserved 2020, spoug的第二个测试站</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://me.xusb.ml/post/hello-gridea/</id>
